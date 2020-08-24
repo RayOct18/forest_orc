@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not Found | Nook's Island</title>
+	<script type="text/javascript" src="/js/color-scheme-toggle.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/main.css?v=1.1.3">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="theme-color" content="#ffffff">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+			<meta name="robots" content="noindex">
+				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161578206-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-161578206-1');
+	</script>
+	<script data-ad-client="ca-pub-9118125537881194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	</head>
+<body>
+	<header>
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="/"><img class="site-logo" src="/images/logo.png"></a>
+				<div class="is-hidden-desktop" id="color-scheme-toggle-mobile"></div>
+								<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar" onclick="toggleMenu()">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<div id="navbar" class="navbar-menu">
+				<div class="navbar-start">
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a href="/marketplace" class="navbar-link has-text-weight-bold"><i class="fas fa-store"></i>&nbsp;Marketplace</a>
+
+						<div class="navbar-dropdown">
+							<a href="/marketplace" class="navbar-item">Browse</a>
+														
+						</div>
+					</div>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a href="/designs" class="navbar-link has-text-weight-bold"><i class="fas fa-paint-brush"></i>&nbsp;Designs</a>
+
+						<div class="navbar-dropdown">
+							<a href="/designs" class="navbar-item">Browse</a>
+														
+						</div>
+					</div>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link has-text-weight-bold"><i class="fas fa-book"></i>&nbsp;Guides</a>
+						<div class="navbar-dropdown">
+							<a href="/insects" class="navbar-item">Insect Catching</a>
+							<a href="/fish" class="navbar-item">Fish Catching</a>	
+						</div>
+					</div>		
+				</div>
+				<div class="navbar-end">
+					<div class="navbar-item is-hidden-touch" class="color-scheme-toggle" id="color-scheme-toggle">
+					</div>
+						      						<div class="buttons">
+								<a href="/login" class="button is-primary">Login</a>
+								<a href="/sign-up" class="button">Sign up</a>
+							</div>
+										</div>
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+<script type="text/javascript">
+	if (document.getElementById('notification-bell') != null) {
+		document.getElementById('notification-bell-mobile').innerHTML = document.getElementById('notification-bell').innerHTML;
+	}
+		document.getElementById('color-scheme-toggle-mobile').innerHTML = document.getElementById('color-scheme-toggle').innerHTML;
+</script>
+
+<main>
+
+	
+	<section class="section">
+	<div class="container">
+		<div class="box">
+			<p>Sorry, we couldn't find what you're looking for.</p>
+		</div>
+	</div>
+</section>	</main>
+	<footer class="footer">
+
+		<div class="columns is-vcentered">
+			<div class="column has-text-centered">
+				<div class="content">
+					<img class="site-logo" src="/images/logo.png" style="max-height:3rem">
+					<p>Nook's Island is a fan-made website and is in no way affiliated with Nintendo.</p>
+				</div>
+			</div>
+
+			<div class="column has-text-centered">
+				<div class="content ">
+					<a class="is-block" href="/privacy-policy">Privacy Policy</a>
+					<a class="is-block" href="/terms-of-service">Terms of Service</a>
+					<a class="is-block" href="/contact">Contact</a>
+					<a class="is-block" rel="nofollow" href="https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4">Marketplace Data Source</a>
+				</div>
+			</div>
+
+			<div class="column has-text-centered">
+				<h4 class="title is-4">Follow Us</h4>
+				<a target="_blank" href="https://www.instagram.com/nooks.island" class="has-text-dark footer-icon"><i class="fab fa-instagram footer-icon"></i></a>
+				<a target="_blank" href="https://twitter.com/NooksIsland" class="footer-icon"><i class="fab fa-twitter footer-icon"></i></a>
+			</div>
+
+		</div>
+		
+	</footer>
+
+	<script type="text/javascript">
+		function toggleMenu(){
+			document.getElementById('navbar').classList.toggle('is-active');
+		}
+
+			</script>
+
+	<div id="notification-alert" class="has-text-centered has-background-primary has-text-white show-notification-alert" style="position:sticky; position:-webkit-sticky; height:50px; justify-content:center; align-items:center; display:none;"><i class="fas fa-bell"></i>&nbsp;<a class="has-text-white" style="text-decoration:underline;" href="/notifications">You have an unread notification</a></div>
+</body>
+</html>
+
